@@ -10,6 +10,7 @@ function Header() {
             <div className={Style.navigation}>
                 <ul>
                     <li className={Style.navigationList}>Home</li>
+                    <li className={Style.navigationList}>Skills</li>
                     <li className={Style.navigationList}>Project's</li>
                     <li className={Style.navigationList}>Contact</li>
                 </ul>

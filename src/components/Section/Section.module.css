@@ -1,4 +1,5 @@
-.skillSection {
+.skillSection,
+.projectSection {
     width: 100%;
     height: 100vh;
     background-color: #0A021D;
@@ -6,9 +7,11 @@
     padding: 3rem 5rem;
 }
 
-.cards {
-    height: 60vh;
+.cards,
+.projectCards {
+    min-height: 60vh;
     margin: 4rem 5rem;
     display: flex;
     justify-content: space-between;
 }
+

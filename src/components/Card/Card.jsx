@@ -1,6 +1,6 @@
 import React from 'react'
-import htmlIcon from "../../assets/images/html-icon.svg"
 import Style from "./Card.module.css";
+import Skill from '../Skill/Skill';
 
 function Card() {
     return (
@@ -13,23 +13,11 @@ function Card() {
 
             <div className={Style.skillTags}>
 
-                <div className={Style.skillTag}>
-                    <img src={htmlIcon} alt="" />
-                    <span>HTML</span>
-                </div>
+                <Skill />
 
-                <div className={Style.skillTag}>
-                    <img src={htmlIcon} alt="" />
-                    <span>CSS</span>
-                </div>
-                <div className={Style.skillTag}>
-                    <img src={htmlIcon} alt="" />
-                    <span>CSS</span>
-                </div>
-                <div className={Style.skillTag}>
-                    <img src={htmlIcon} alt="" />
-                    <span>CSS</span>
-                </div>
+                <Skill />
+
+                <Skill />
 
             </div>
 

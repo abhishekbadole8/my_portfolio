@@ -1,0 +1,20 @@
+.skillTag {
+    min-width: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: .25rem;
+    padding: .45rem .8rem;
+    border-radius: 35px;
+    border: 1px solid #093145;
+}
+
+.skillTag img {
+    width: 21px;
+    height: 21px;
+}
+
+.skillTag span {
+    font-size: 1rem;
+    font-weight: 700;
+}
