@@ -1,0 +1,54 @@
+.tableContainer {
+    border: 1px solid #ABABAB;
+    height: 60vh;
+    padding: 3rem;
+    margin: 4rem 5rem;
+    display: flex;
+}
+
+.educationSelect {
+    width: 25%;
+    height: 100%;
+}
+
+.educationSelect ul {
+    list-style: none;
+    font-size: 1.75rem;
+    font-weight: bold;
+    letter-spacing: .2rem;
+}
+
+.educationShow {
+    width: 100%;
+    padding: 1rem .5rem;
+    margin-bottom: .75rem;
+    border-bottom: 2px solid #093145;
+}
+
+.educationShow:hover {
+    color: green;
+    border-bottom: 2px solid green;
+}
+
+table {
+    display: flex;
+    align-items: center;
+    padding: 0 2rem 1rem 2rem;
+    letter-spacing: .2rem;
+}
+
+tr {
+    display: flex;
+    align-items: start;
+    flex-direction: column;
+}
+
+th {
+    font-size: 1.4rem;
+    padding: 1.1rem 3rem;
+}
+
+td {
+    font-size: 1.1rem;
+    padding: 1.35rem 3rem;
+}

@@ -7,3 +7,8 @@
 body {
     font-family: "Roboto";
 }
+
+.pageTitle {
+    font-size: 3rem;
+    letter-spacing: .35rem;
+}
