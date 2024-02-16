@@ -10,8 +10,33 @@
 .cards,
 .projectCards {
     min-height: 60vh;
-    margin: 4rem 5rem;
+    margin: 3.5rem 5rem;
     display: flex;
     justify-content: space-between;
 }
 
+/* .projectCards {
+    position: relative;
+}
+
+.projectNavigation {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    display: flex;
+    align-items: center;
+}
+
+
+.projectNavigation p:first-child {
+    position: absolute;
+    left: -6rem;
+}
+
+.projectNavigation p {
+    position: absolute;
+    right: -6rem;
+}
+.projectNavigation p:hover{
+    cursor: pointer;
+} */

@@ -22,6 +22,9 @@ function ProjectCard() {
                     <Skill />
                     <Skill />
                     <Skill />
+                    <Skill />
+                    <Skill />
+                    <Skill />
                 </div>
 
                 <p className={Style.projectDescription}>

@@ -5,6 +5,8 @@ import Hero from '../Hero/Hero';
 import "../../assets/styles/global.css";
 import Card from '../Card/Card';
 import ProjectCard from '../ProjectCard/projectCard';
+import { GrLinkNext } from "react-icons/gr";
+import { GrLinkPrevious } from "react-icons/gr";
 
 function Section() {
     return (
@@ -22,7 +24,7 @@ function Section() {
                     <Card />
 
                     <Card />
-                    
+
                     <Card />
 
                 </div>
@@ -38,6 +40,15 @@ function Section() {
                     <ProjectCard />
 
                     <ProjectCard />
+
+                    {/* <div className={Style.projectNavigation}>
+
+                        <p id={Style.prevIcon}><GrLinkPrevious size={40} color='#093145' /></p>
+
+                        <p id={Style.nextIcon}> <GrLinkNext size={40} color='#093145' /></p>
+
+                    </div> */}
+
 
                 </div>
 
